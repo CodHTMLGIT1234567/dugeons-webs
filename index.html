@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="menu">
+        <button class="btn-minecraft">singeplayer</button>
+        <button class="btn-minecraft">Mutiplayer</button>
+         <button class="btn-minecraft">Marketplace / Profile</button>
+      </div>
+      <div class="menu-options">
+          <button class="btn-minecraft">Options</button>
+          <button class="btn-minecraft">Quick exit</button>
+      </div>
+    </div>
+  </body>
+    <script>
+        
+         const button = document.querySelectorAll('.btn-minecraft')
+    button.forEach(btn ->{
+      btn.addEventListener('mouseleave', function (){
+        btn.blur()
+        })
+    })
+    </script>
+</html>
