@@ -1,5 +1,5 @@
 body{
-    background-image: url(dungeouns-bg.jpg);
+    background-image: url(dungeons-bg.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -82,3 +82,4 @@ body{
     color: rgb(246, 246, 44);
     outline: none;
   }
+  
